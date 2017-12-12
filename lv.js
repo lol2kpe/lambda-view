@@ -12,6 +12,8 @@ var g = {
 	url: null
 }
 
+var lv = lv || {};
+
 program
 	.version(require('./package').version)
 	// .option('-s, --simple-mode', 'analyze as simple mode')

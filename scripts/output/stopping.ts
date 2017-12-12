@@ -1,7 +1,5 @@
-var stop = stop || {};
-
-try {
-	console.log('stopping lambda-view web server...')
+stopping  {
+lambda-view web server...')
 	require('fmtjs-web').stop(function(err) {
 		if (err) {
 			console.error(err.message)
@@ -12,4 +10,5 @@ try {
 }
 catch (err) {
 	// console.error(err.message)
+}
 }

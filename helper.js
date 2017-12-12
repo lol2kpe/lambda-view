@@ -4,6 +4,8 @@ var chalk = require('chalk')
 var loader = require('fmtjs-loader')
 var open = require('open')
 
+var helper = helper || {};
+
 function load_utf8_file(filename, cb) {
 	loader.load(filename, function(err, result) {
 		if (!err) {

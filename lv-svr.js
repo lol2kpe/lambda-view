@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 var program = require('commander')
 
+var lv-svr = lv-svr || {};
+
 program
 	.version(require('./package.json').version)
 
